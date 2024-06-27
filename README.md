@@ -1,21 +1,20 @@
 # Predicting Relative Humidity using Long Short-Term Memory (LSTM)
 
-This project utilizes Long Short-Term Memory (LSTM), a powerful type of recurrent neural network (RNN), to predict outdoor relative humidity (RH) in an Italian city. RH is a crucial parameter impacting climate, agriculture, human health, and energy consumption. By leveraging LSTM, this study explores its capability to accurately forecast RH, thereby contributing to fields such as weather forecasting, agriculture management, and energy efficiency planning.
+This project aims to predict outdoor relative humidity (RH) in an Italian city using Long Short-Term Memory (LSTM), a powerful type of recurrent neural network (RNN) designed to handle sequence prediction tasks. 
+
+**Relative humidity (RH)** is the amount of moisture in the air compared to the maximum amount of moisture the air can hold at a given temperature. It is a critical parameter influencing climate, agriculture, human health, and energy consumption. By leveraging LSTM, this study explores its capability to accurately forecast RH, contributing to fields such as weather forecasting, agriculture, and energy efficiency planning.
 
 ## Dataset and References
-
-- **Dataset**: The dataset used for this study is available at [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/360/air+quality).
-- **Paper Reference**: For detailed methodology and findings, refer to [this research paper](http://www.jeiletters.org/index.php?journal=mys&page=article&op=view&path%5B%5D=202100074).
+- **Dataset**: The dataset used for this study can be found at [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/360/air+quality).
+- **Paper Reference**: For detailed methodology and findings, refer to [Outdoor Relative Humidity Prediction via Machine Learning Techniques](http://www.jeiletters.org/index.php?journal=mys&page=article&op=view&path%5B%5D=202100074).
 
 ## Motivation
-
-Accurate prediction of RH is essential across various domains including agriculture, health, and climate adaptation. LSTM, known for its effectiveness in modeling sequential data, offers a promising approach to capture temporal dependencies in RH data.
+In today's data-driven world, accurate prediction of RH is crucial for various applications including agriculture, health, and climate adaptation. LSTM, known for its ability to model sequential data effectively, offers a promising approach to capture the temporal dependencies in RH data.
 
 ## Methodology
+This study focuses solely on the Long Short-Term Memory (LSTM) model due to its superior performance in time-series prediction tasks. LSTM is chosen for its capability to learn and remember patterns over long sequences, making it ideal for forecasting RH based on historical weather data.
 
-This study focuses exclusively on the Long Short-Term Memory (LSTM) model due to its superior performance in time-series prediction tasks. LSTM is chosen for its ability to learn and remember patterns over long sequences, making it ideal for forecasting RH based on historical weather data.
-
-Implementing LSTM in this project aims to advance the predictive capabilities of RH, facilitating better planning and decision-making in sectors reliant on climate and environmental data.
+By implementing LSTM, this project aims to advance the understanding and predictive capabilities of RH, facilitating better planning and decision-making in various sectors reliant on climate and environmental data.
 
 ---
 
